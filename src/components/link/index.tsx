@@ -16,7 +16,6 @@ function Link() {
       .where("shortUrl", "==", shorturl)
       .onSnapshot((data) => {
         if (data.empty) {
-          console.log("no data");
           return history.push("/");
         }
         let resData = data.docs[0].data();

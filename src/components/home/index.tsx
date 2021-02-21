@@ -41,7 +41,6 @@ function Home() {
     }
   };
   const host = window.location.href;
-  console.log(process.env);
 
   return (
     <div className="outter_container">
