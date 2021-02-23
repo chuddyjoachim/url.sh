@@ -2,7 +2,6 @@ import React from "react";
 import "./App.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/home";
-import { useState } from "react";
 import Link from "./components/link/";
 
 function App() {
